@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+	<br><hr>
+	<h2>KGITBANK 학원</h2>
+
+	<h3>고객센터 : 02-111-222</h3>
+
+	<h3><a href="#">찾아오시는 길</a></h3>
+	<hr>

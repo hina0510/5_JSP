@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		function joinCheck() {
+			var id = document.join.id.value;
+			var pw = document.join.pw.value;
+			var pwc = document.join.pwc.value;
+			var name = document.join.name.value;
+			
+			if(id==null || id==""){
+				alert('아이디는 필수사항입니다');
+				document.join.id.focus();
+				return;
+			}
+			if(id.length<4){
+				alert('아이디는 4글자 이상이여야 합니다');
+				document.join.id.focus();
+				return;
+			}
+			if(pw==null || pw==""){
+				alert('패스워드는 필수사항입니다');
+				document.join.pw.focus();
+				return;
+			}
+			if(pw!=pwc){
+				alert('패스워드가 일치하지 않습니다');
+				document.join.pw.focus();
+				return;
+			}
+			if(name==null || name==""){
+				alert('이름은 필수사항입니다');
+				document.join.name.focus();
+				return;
+			}
+			
+			document.join.submit();
+			// 유효성 검사를 마친 후 폼의 데이터를 서버로 전송해준다
+		}
+	</script>
+	<form name="join" action="#">
+		<table border="1">
+			<tr>
+				<td>ID</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td>PW</td>
+				<td><input type="password" name="pw"></td>
+			</tr>
+			<tr>
+				<td>PW확인</td>
+				<td><input type="password" name="pwc"></td>
+			</tr>
+			<tr>
+				<td>이름</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>나이</td>
+				<td><input type="number" name="age"></td>
+			</tr>
+			<tr>
+				<td>전화번호</td>
+				<td><input type="text" name="tel"></td>
+			</tr>
+			<tr>
+				<td>성별</td>
+				<td>남자<input type="radio" name="man">
+					여자<input type="radio" name="woman"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="button" onclick="joinCheck()" value="회원가입"></td>
+			</tr>
+		</table>
+		
+	
+	</form>
+	
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<!-- name 속성 : form의 이름을 지정(보통 자바스크립트에서 폼 요소를 참조하기 위해 사용)
+		 action속성 : 폼이 전송되는 서버 쪽 url
+		 method속성 : 전송방법 설정, get 또는 post 속성값이 있다.(default : get 방식)
+	 -->
+	
+	<form name="LoginForm" action="jspPage.jsp" method="get">
+		아이디 : <input type="text" name="id"><br>
+		비밀번호 : <input type="password" name="pw"><br>
+		<input type="submit" value="로그인">
+	</form>
+	<hr>
+	<form>
+		이름 : <input type="text" name="name"><br>
+		나이 : <input type="number" name="age"><br>
+		전화번호 : <input type="text" name="tel"><br>
+		자기소개 : <textarea cols="22" rows="5"></textarea><br>
+		
+		<input type="submit" name="회원가입"><br>
+	</form>
+	
+</body>
+</html>

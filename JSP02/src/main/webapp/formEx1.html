@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="/JSP02/joinCheck" method="post">
+		<table border="1">
+			<tr>
+				<td>ID</td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td>PW</td>
+				<td><input type="password" name="pw"></td>
+			</tr>
+			<tr>
+				<td>NAME</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>AGE</td>
+				<td><input type="number" name="age"></td>
+			</tr>
+			<tr>
+				<td>HOBBY</td>
+				<td><input type="checkbox" name="hobby" value="health">운동<br>
+				<input type="checkbox" name="hobby" value="movie">영화<br>
+				<input type="checkbox" name="hobby" value="drawing">그리기<br>
+				<input type="checkbox" name="hobby" value="music">음악</td>
+			</tr>
+			<tr>
+				<td>AREA</td>
+				<td><select name="area">
+						<option value="서울">서울</option>
+						<option value="대전">대전</option>
+						<option value="대구">대구</option>
+						<option value="부산">부산</option>
+					</select></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="전송"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,7 @@
+#Tomcat publish data
+#Fri Jun 09 16:08:09 KST 2023
+org.eclipse.jst.jee.server\:JSP04=D\:\\\uCF54\uB529\\5_JSP\\apache-tomcat-9.0.74\\wtpwebapps\\JSP04
+org.eclipse.jst.jee.server\:TRAVEL=D\:\\\uCF54\uB529\\5_JSP\\apache-tomcat-9.0.74\\wtpwebapps\\TRAVEL
+org.eclipse.jst.jee.server\:JSP01=D\:\\\uCF54\uB529\\5_JSP\\apache-tomcat-9.0.74\\wtpwebapps\\JSP01
+org.eclipse.jst.jee.server\:JSP02=D\:\\\uCF54\uB529\\5_JSP\\apache-tomcat-9.0.74\\wtpwebapps\\JSP02
+org.eclipse.jst.jee.server\:JSP03=D\:\\\uCF54\uB529\\5_JSP\\apache-tomcat-9.0.74\\wtpwebapps\\JSP03

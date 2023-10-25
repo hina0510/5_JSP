@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">여행앱 이름</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+      
+        
+       
+        <li class="nav-item">
+          <a class="nav-link" href="#">지도</a>
+        </li>
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            대륙별
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">America</a></li>
+            <li><a class="dropdown-item" href="#">Africa</a></li>
+            <li><a class="dropdown-item" href="#">Asia</a></li>
+            <li><a class="dropdown-item" href="#">Europe</a></li>
+            <li><a class="dropdown-item" href="#">오세아니아</a></li>
+          </ul>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#">MBTI 추천 국가</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+</body>
+</html>

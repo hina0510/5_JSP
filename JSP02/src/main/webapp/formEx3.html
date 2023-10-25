@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 학생정보 입력 폼 -->
+	<form action="/JSP02/student" method="post">
+	
+	학번 : <input type="text" name = "id"><br>
+	이름 : <input type="text" name = "name"><br>
+	나이 : <input type="number" name = "age"><br>
+	
+	동아리 : <input type="checkbox" name = "circle" value="음악">음악<br>
+	<input type="checkbox" name = "circle" value="미술">미술<br>
+	<input type="checkbox" name = "circle" value="영화">영화<br>
+	<input type="checkbox" name = "circle" value="가정">가정<br>
+	
+	전공 : <input type="radio" name = "subject" value="국어">국어<br>
+	<input type="radio" name = "subject" value="영어">영어<br>
+	<input type="radio" name = "subject" value="수학">수학<br>
+	<input type="radio" name = "subject" value="음악">음악<br>
+	사는 지역 :
+	<select name="area">
+		<option value="서울">서울</option>
+		<option value="대전">대전</option>
+		<option value="대구">대구</option>
+		<option value="부산">부산</option>
+	</select> 
+		<input type="submit" value="등록"><br>
+	</form>
+</body>
+</html>
